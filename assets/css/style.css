@@ -35,6 +35,28 @@ i{
     
 }
 
+.row{
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.col_4{
+    width: calc(100% / 3);
+    
+}
+
+.col_12{
+    width: 100%;
+}
+
+#plan_h2{
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
 /* #endregion COMMON RULES  */
 
 
@@ -99,8 +121,18 @@ i{
     border:1px solid black;
 }
 
+.functionality_debug{
+    background-color: darkgreen;
+}
 
 
+.debug_row_functionality{
+    height: 1000px;
+}
+
+.col_section_debug{
+    height: 500px;
+}
 
 /* #endregion debug */
 
@@ -193,24 +225,7 @@ i{
     padding-right: 2rem;
 }
 
-.row{
-    flex-wrap: wrap;
-    margin-top: 1rem;
-}
 
-.col_4{
-    width: calc(100% / 3);
-    
-}
-
-.col_12{
-    width: 100%;
-}
-
-#plan_h2{
-    font-size: 3rem;
-    padding: 1rem;
-}
 
 /* #endregion plan_subscription */
 
@@ -221,7 +236,6 @@ i{
 .partner_container{
     justify-content: center;
     padding: 5rem 0;
-    margin-bottom: 5rem;
     
 }
 
@@ -234,5 +248,24 @@ i{
 }
 
 /* #endregion partnership */
+
+/* #region functionality */
+
+.functionality_container{
+    width: 65%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    padding-bottom: 5rem;
+}
+
+.col_section{
+    border: 1px solid black;
+}
+
+/* #endregion functionality */
+
 
 /* /endregion MAIN */

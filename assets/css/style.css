@@ -1,4 +1,4 @@
-/* COMMON RULES */
+/* #region COMMON RULES */
 
 *{
     box-sizing: border-box;
@@ -23,7 +23,7 @@ i{
     display: inline-block;
 }
 
-/* /COMMON RULES  */
+
 .logo{
     display: inline-block;
     align-self: center;
@@ -34,6 +34,9 @@ i{
     padding: 1rem;
     
 }
+
+/* #endregion COMMON RULES  */
+
 
 /* #region debug */
 
@@ -75,6 +78,30 @@ i{
     background-color: lightslategray;
     height: 200px;
 }
+
+.partner_bg_debug{
+    background-color: firebrick;
+}
+
+.partnership_debug{
+    width: 65%;
+    margin: auto;
+    height: 600px;
+}
+
+.debug_img_container{
+    background-color: plum;
+    border:1px solid black;    
+}
+
+.partner_text_debug{
+    background-color: violet;
+    border:1px solid black;
+}
+
+
+
+
 /* #endregion debug */
 
 /* #region HEADER */
@@ -105,8 +132,8 @@ i{
 
 .presentation_container{
     flex-direction: column;  
-    width: 70%;
-    max-width: 1150px;
+    width: 80%;
+    max-width: 1350px;
     margin: auto;
     padding-top: 1rem;
     justify-content: center;
@@ -142,7 +169,7 @@ i{
     margin: 2rem;
     padding: 1rem;
     border-radius: 30px;
-
+    margin-left: 8rem;
     background-color: blue;
 }
 
@@ -187,5 +214,25 @@ i{
 
 /* #endregion plan_subscription */
 
+
+
+/* #region partnership */
+
+.partner_container{
+    justify-content: center;
+    padding: 5rem 0;
+    margin-bottom: 5rem;
+    
+}
+
+.img_container{
+    width: 60%;
+}
+
+.partnership_text{
+    width: 40%;
+}
+
+/* #endregion partnership */
 
 /* /endregion MAIN */

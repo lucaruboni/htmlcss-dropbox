@@ -49,12 +49,16 @@ i{
     width: 100%;
 }
 
-#plan_h2{
+#h2_common{
     font-size: 3rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
+.width_marg{
+    width: 65%;
+    margin: auto;
+}
 
 
 /* #endregion COMMON RULES  */
@@ -106,8 +110,7 @@ i{
 }
 
 .partnership_debug{
-    width: 65%;
-    margin: auto;
+   
     height: 600px;
 }
 
@@ -133,6 +136,16 @@ i{
 .col_section_debug{
     height: 500px;
 }
+
+.users_debug{
+    background-color: darkorange;
+}
+
+.users_container_debug{
+    background-color: crimson;
+
+}
+
 
 /* #endregion debug */
 
@@ -212,8 +225,7 @@ i{
 
 
 .plan_container{
-    width: 65%;
-    margin: auto;
+   
     justify-content: center;
     flex-direction: column;
     margin-top: 12rem;
@@ -252,8 +264,7 @@ i{
 /* #region functionality */
 
 .functionality_container{
-    width: 65%;
-    margin: auto;
+   
     justify-content: center;
     flex-direction: column;
     margin-top: 12rem;

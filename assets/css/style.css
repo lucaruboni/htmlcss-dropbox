@@ -1,16 +1,56 @@
+/* COMMON RULES */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.flexbox{
+    display: flex;
+}
+
+
+
+
+/* /COMMON RULES  */
+.logo{
+    display: inline-block;
+    align-self: center;
+    padding-right: 2rem;
+}
+
+ .head_link{
+    padding: 1rem;
+    
+}
+
 /* #region debug */
 
 .debug_header{
     background-color: orange;
-    height: 40px;
+   
 }
 
 .debug_left_head, .debug_right_head{
-    
+    padding: 1rem;
+
 }
+
+
+
+/* #endregion debug */
+
+/* #region HEADER */
+
+#app_header{
+    justify-content: space-between;
+    height: 80px;
+}
+
+.left_head, .right_head{
+    align-self: center;
+}
+
+
+/* #endregion HEADER */

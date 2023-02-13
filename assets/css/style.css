@@ -10,8 +10,14 @@
     display: flex;
 }
 
+ body {
+     font-family: 'Open Sans', sans-serif;
+ }
 
-
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
 
 /* /COMMON RULES  */
 .logo{
@@ -37,7 +43,15 @@
 
 }
 
+.debug_p_bg{
+    background-color: aquamarine;
+}
 
+.presentation_debug{
+    background-color: darkslategrey;
+    width: 1000px;
+    height: 600px;
+}
 
 /* #endregion debug */
 
@@ -54,3 +68,46 @@
 
 
 /* #endregion HEADER */
+
+/* #region MAIN */
+
+
+
+.presentation_container{
+    flex-direction: column;  
+    width: 70%;
+    max-width: 1150px;
+    margin: auto;
+    padding-top: 1rem;
+    justify-content: center;
+    margin-top: 3rem; 
+}
+
+.presentation_bottom{
+    position: relative;
+    margin-top: 3rem;
+}
+
+#title{
+    font-size: 3rem;
+    flex-grow: 2;
+    padding: 1rem;
+    padding-top: 6rem;
+}
+
+.presentation_p, .presentation_span{
+    padding-left: 2rem;
+}
+
+#jumbo{
+    
+    margin-top: 2rem;
+    height: 70vh;
+  
+}
+
+.free_trial{
+    align-self: center;
+}
+
+/* /endregion MAIN */

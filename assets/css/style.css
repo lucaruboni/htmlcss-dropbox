@@ -19,6 +19,10 @@ a{
     color: antiquewhite;
 }
 
+i{
+    display: inline-block;
+}
+
 /* /COMMON RULES  */
 .logo{
     display: inline-block;
@@ -107,7 +111,13 @@ a{
 }
 
 .free_trial{
-    align-self: center;
+    display: inline-block;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 30px;
+
+    background-color: blue;
 }
 
 /* /endregion MAIN */

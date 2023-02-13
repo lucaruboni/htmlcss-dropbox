@@ -76,6 +76,8 @@ i{
 
 }
 
+                       /* presentation */         
+
 .debug_p_bg{
     background-color: aquamarine;
 }
@@ -84,6 +86,8 @@ i{
     background-color: darkslategrey;
     height: 600px;
 }
+
+                        /* plan */
 
 .subscription_plan_bg_debug{
     background-color: chartreuse;
@@ -105,6 +109,8 @@ i{
     height: 200px;
 }
 
+                  /* partnership */
+
 .partner_bg_debug{
     background-color: firebrick;
 }
@@ -124,6 +130,8 @@ i{
     border:1px solid black;
 }
 
+                     /* functionality */
+
 .functionality_debug{
     background-color: darkgreen;
 }
@@ -137,15 +145,33 @@ i{
     height: 500px;
 }
 
+                      /* users */
+
 .users_debug{
     background-color: darkorange;
 }
 
 .users_container_debug{
     background-color: crimson;
+    height: 400px;
 
 }
+                    /* logowall */
 
+ .col_border_debug{
+    border: 1px solid black;
+}
+
+.central_col_debug{
+    width: 600px;
+    height: 600px;
+}
+
+.square_debug{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
 
 /* #endregion debug */
 
@@ -278,5 +304,41 @@ i{
 
 /* #endregion functionality */
 
+/* #region users */
 
-/* /endregion MAIN */
+.users{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    
+}
+
+.users_container{
+    margin-top: 2rem;
+}
+
+.users_text{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* #endregion users */
+
+
+/* #region logo_wall */
+
+.logo_wall_container{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col_logo_w{
+    max-width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+
+
+/* #endregion logo_wall */
+
+/* #endregion MAIN */

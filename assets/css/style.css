@@ -68,7 +68,7 @@ i{
 
 /* #region debug */
 
-.debug_header{
+/* .debug_header{
     background-color: orange;
    
 }
@@ -76,11 +76,11 @@ i{
 .debug_left_head, .debug_right_head{
     padding: 1rem;
 
-}
+} */
 
                        /* presentation */         
 
-.debug_p_bg{
+/* .debug_p_bg{
     background-color: aquamarine;
 }
 
@@ -88,7 +88,7 @@ i{
     background-color: darkslategrey;
     height: 600px;
 }
-
+ */
                         /* plan */
 
 .subscription_plan_bg_debug{
@@ -248,6 +248,15 @@ i{
     margin-top: 3rem; 
 }
 
+.presentation_center{
+    
+}
+
+.presentation_bg{
+    background-color: #b4d0e7;
+    padding-bottom: 8rem;
+}
+
 .presentation_bottom{
     position: relative;
     margin-top: 3rem;
@@ -257,15 +266,24 @@ i{
     font-size: 3rem;
     flex-grow: 2;
     padding: 1rem;
-    margin-top: 7rem;
+    
 }
 
-.presentation_p, .presentation_span{
-    padding-left: 2rem;
+
+
+.presentation_text_container{
+    flex-direction: column;
+    width: 33rem;
 }
+
+
+.presentation_image{
+    position: relative;
+}
+
 
 #jumbo{
-    
+    position: absolute; 
     margin-top: 1rem;
     height: 500px;
   
@@ -274,12 +292,19 @@ i{
 .free_trial{
     display: inline-block;
     text-align: center;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
-    border-radius: 30px;
-    margin-left: 8rem;
     background-color: blue;
+    color: white;
+    max-width: 18rem;
 }
+
+#arrow_down{
+    padding-top: 5rem;
+}
+
+
 
 /* #endregion presentation */
 

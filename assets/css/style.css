@@ -487,16 +487,42 @@ i{
     justify-content: center;
     padding: 5rem 0;
     
+    
 }
 
 .img_container{
-    width: 60%;
+    width: 70%;
+    background-image: url(../img/partner.png);
+    background-size: cover;
 }
 
 .partnership_text{
-    width: 40%;
+    width: 30%;
+    flex-direction: column;
+    padding-left: 2rem;
+    margin-top: 5rem;
 }
 
+.partner_title{
+    margin-bottom: 4rem;
+}
+
+#find_p{
+    font-size: 1.4rem;
+}
+
+#find{
+    text-decoration: none;
+    color: black;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+    text-align: center;
+}
+
+#find_partner{
+    border: 1px solid black;
+    padding: 0.8rem;
+}
 
 /* #endregion partnership */
 

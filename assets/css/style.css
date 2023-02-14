@@ -184,6 +184,16 @@ i{
 
 }
 
+
+.col5_debug{
+    height: 300px;
+    width: 200px;
+    max-width: calc(100% / 12 * 5);
+    background-color: bisque;
+    border: 1px solid black;
+    margin: 3rem;
+}
+
 /* #endregion debug */
 
 /* #region HEADER */
@@ -341,10 +351,13 @@ i{
 .logo_wall_container{
     width: 100%;
     justify-content: space-between;
+    
+}
+.col_logo_w{
+    max-width: calc(100% / 12 * 3);
 }
 
-.col_logo_w{
-    max-width: calc(100% / 3);
+.col_logo_w.position{
     flex-wrap: wrap;
 }
 
@@ -393,3 +406,47 @@ i{
 /* #endregion faq */
 
 /* #endregion MAIN */
+
+/* #region FOOTER */
+
+#app_footer{
+    background-color: steelblue;
+    margin-top: 2rem;
+}
+
+.footer_top{
+    justify-content: center;
+}
+
+
+.footer_top_content{
+   width: 80%;
+    justify-content: center;
+}
+
+.footer_bottom{
+    justify-content: center;
+}
+
+.footer_bottom_content{
+    width: 80%;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.footer_text{
+    border-top: 0.6px solid black;
+}
+
+.foot_text_container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#italiano{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* #endregion FOOTER */

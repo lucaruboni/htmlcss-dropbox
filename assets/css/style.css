@@ -16,7 +16,8 @@
 
 a{
     text-decoration: none;
-    color: antiquewhite;
+    color: black;
+    font-size: 0.9rem;
 }
 
 i{
@@ -28,6 +29,7 @@ i{
     display: inline-block;
     align-self: center;
     padding-right: 2rem;
+    margin-left: 1rem;
 }
 
  .head_link{
@@ -209,12 +211,26 @@ i{
 #app_header{
     justify-content: space-between;
     height: 80px;
+    background-color: aliceblue;
 }
 
 .left_head, .right_head{
     align-self: center;
 }
 
+#start{
+    height: 1.8rem;
+    padding-top: 0.01rem;
+    padding-bottom: 0.01rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    align-self: center;
+    line-height: 1.8rem;
+    box-shadow: 0 0 10px lightblue;
+}
 
 /* #endregion HEADER */
 

@@ -173,6 +173,17 @@ i{
     background-color: blue;
 }
 
+
+.users_debug, .bring_debug,.faq_debug{
+    background-color: darkorange;
+}
+
+.users_container_debug, .bring_container_debug,.faq_container_debug{
+    background-color: crimson;
+    height: 400px;
+
+}
+
 /* #endregion debug */
 
 /* #region HEADER */
@@ -340,5 +351,45 @@ i{
 
 
 /* #endregion logo_wall */
+
+
+/* #region bring */
+
+.bring{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    
+}
+
+.bring_container{
+    margin-top: 2rem;
+}
+
+.bring_text{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* #endregion bring */
+
+/* #region faq */
+
+.faq{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    
+}
+
+.faq_container{
+    margin-top: 2rem;
+}
+
+.faq_text{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* #endregion faq */
 
 /* #endregion MAIN */

@@ -92,6 +92,12 @@ i{
 i{
     display: inline-block;
 }
+
+img{
+    max-width: 100%;
+}
+
+
 /* #endregion COMMON RULES  */
 
 
@@ -483,6 +489,11 @@ i{
 
 /* #region partnership */
 
+.partnership{
+    max-width: 70%;
+    margin: auto;
+}
+
 .partner_container{
     justify-content: center;
     padding: 5rem 0;
@@ -491,16 +502,18 @@ i{
 }
 
 .img_container{
-    width: 70%;
+    width:50%;
     background-image: url(../img/partner.png);
     background-size: cover;
+
 }
 
 .partnership_text{
-    width: 30%;
+    width: 50%;
     flex-direction: column;
     padding-left: 2rem;
     margin-top: 5rem;
+    background-color: white;
 }
 
 .partner_title{
@@ -537,9 +550,7 @@ i{
     padding-bottom: 5rem;
 }
 
-.col_section{
-    border: 1px solid black;
-}
+
 
 /* #endregion functionality */
 
@@ -572,7 +583,7 @@ i{
     
 }
 .col_logo_w{
-    max-width: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 4);
 }
 
 .col_logo_w.position{

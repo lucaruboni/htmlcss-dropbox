@@ -115,6 +115,11 @@ img{
     max-width: 100%;
 }
 
+.plan_division{
+    padding-left: 1rem;
+    width: 6rem;
+}
+
 
 /* #endregion COMMON RULES  */
 
@@ -442,10 +447,7 @@ img{
     color: blue;
 }
 
-#plan_division{
-    padding-left: 1rem;
-    width: 6rem;
-}
+
 
 .highlights{
     flex-direction: column;
@@ -607,6 +609,10 @@ img{
 
 /* #region logo_wall */
 
+.logo_wall{
+    width: 100%;
+}
+
 .logo_wall_container{
     width: 100%;
     justify-content: space-between;
@@ -614,6 +620,10 @@ img{
 }
 .col_logo_w{
     max-width: calc(100% / 12 * 4);
+}
+
+.central{
+    width: 100%;
 }
 
 .col_logo_w.position{
@@ -624,8 +634,15 @@ img{
     max-width: 80%;
 }
 .logo_img{
-    width: 30%;
-    filter: white;
+    width: 40%;
+    filter: grayscale(100%);
+    filter: invert(100%);
+}
+
+.logo_img_black{
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 #clear_w{
@@ -680,6 +697,17 @@ img{
     background-color: var(--light-yellow);
 }
 
+.central_text_container{
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.logo_wall_p{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-right: 3rem;
+    font-weight: 400;
+}
 /* #endregion logo_wall */
 
 

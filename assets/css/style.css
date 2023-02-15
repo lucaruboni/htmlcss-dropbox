@@ -17,6 +17,12 @@
     --light-azure: #b4d0e7;
     --dark-blue: #0d2481;
     --light-yellow: #ffd830;
+    --light-grey: #f5f5f5;
+    --link-blue: #0061ff;
+    --dark-azure: #b4d0e7;
+    --dark-magenta: #61082b;
+    --dark-black: #000;
+    --link-gray: #ffffff;
 }
 
 
@@ -34,7 +40,7 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--dark-black);
     font-size: 0.9rem;
 }
 
@@ -104,7 +110,7 @@ i{
 }
 
 .blue{
-    color: blue;
+    color: var(--link-blue);
 }
 
 i{
@@ -250,7 +256,7 @@ img{
     width: 200px;
     max-width: calc(100% / 12 * 5);
     background-color: bisque;
-    border: 1px solid black;
+    border: 1px solid var(--dark-black);
     margin: 3rem;
 }
 
@@ -306,12 +312,10 @@ img{
     margin-top: 3rem; 
 }
 
-.presentation_center{
-    
-}
+
 
 .presentation_bg{
-    background-color: #b4d0e7;
+    background-color: var(--dark-azure);
     padding-bottom: 5rem;
 }
 
@@ -354,7 +358,7 @@ img{
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: blue;
+    background-color: var(--link-blue);
     color: white;
     max-width: 18rem;
 }
@@ -444,7 +448,7 @@ img{
 
 .normal_a{
     text-decoration: underline;
-    color: blue;
+    color: var(--link-blue);
 }
 
 
@@ -547,14 +551,14 @@ img{
 
 #find{
     text-decoration: none;
-    color: black;
+    color: var(--dark-black);
     margin-top: 6rem;
     margin-bottom: 10rem;
     text-align: center;
 }
 
 #find_partner{
-    border: 1px solid black;
+    border: 1px solid var(--dark-black);
     padding: 0.8rem;
 }
 
@@ -624,6 +628,7 @@ img{
 
 .central{
     width: 100%;
+    background-color: var(--light-grey);
 }
 
 .col_logo_w.position{
@@ -716,6 +721,7 @@ img{
 .bring{
     padding-top: 2rem;
     padding-bottom: 4rem;
+    background-color: var(--dark-azure);
     
 }
 
@@ -727,6 +733,26 @@ img{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+.bring_text_container_left{
+    width: 60%;
+}
+
+.bring_text_container_right{
+    width: 40%;
+    justify-content: center;
+}
+
+.colored_h{
+    color: var(--dark-magenta);
+}
+
+#bring_free_trial{
+    align-self: center;
+    padding:0.5rem 2rem;
+    background-color: var(--link-gray);
+}
+
 
 /* #endregion bring */
 
@@ -781,7 +807,7 @@ img{
 }
 
 .footer_text{
-    border-top: 0.6px solid black;
+    border-top: 0.6px solid var(--dark-black);
 }
 
 .foot_text_container{

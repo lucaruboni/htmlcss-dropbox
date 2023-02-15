@@ -766,11 +766,20 @@ img{
 
 .faq_container{
     margin-top: 2rem;
+    flex-direction: column;
 }
 
 .faq_text{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bold_link{
+    font-weight:600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 

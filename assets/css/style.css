@@ -943,7 +943,7 @@ img{
     transition: all 2s ease-out;
 }
 
-.logo:hover:{
+.logo:hover{
     margin-left: 1rem;
     zoom: 1.2;
 }

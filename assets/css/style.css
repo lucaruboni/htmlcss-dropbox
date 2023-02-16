@@ -914,7 +914,7 @@ img{
 
 }
 
-#find_partner, #bring_free_trial{
+#find_partner, #bring_free_trial, #start{
     transition: all 1s linear;
 }
 
@@ -930,6 +930,12 @@ img{
     color: var(--light-white);
 }
 
+#start:hover{
+    background-color: var(--light-white);
+    border: 1px solid var(--dark-black);
+    color: var(--dark-black);
+}
+
 .col_section{
     transition: all 0.5s ease-in;
 }
@@ -940,7 +946,7 @@ img{
 }
 
 .logo{
-    transition: all 2s ease-out;
+    transition: all 2s ease;
 }
 
 .logo:hover{

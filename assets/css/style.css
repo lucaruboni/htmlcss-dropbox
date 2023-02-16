@@ -7,6 +7,10 @@
 }
 
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 :root{
     --green-light: #a2d39b;
@@ -243,7 +247,7 @@ img{
     background-color: blue;
 } */
 
-
+/* 
 .users_debug, .bring_debug,.faq_debug{
     background-color: darkorange;
 }
@@ -262,7 +266,7 @@ img{
     background-color: bisque;
     border: 1px solid var(--dark-black);
     margin: 3rem;
-}
+} */
 
 /* #endregion debug */
 
@@ -786,6 +790,13 @@ img{
     margin-bottom: 2rem;
 }
 
+.arrow_faq_down{
+    align-self: center;
+}
+
+.faq_text> a.flexbox{
+    justify-content: space-between;
+}
 
 /* #endregion faq */
 
@@ -853,5 +864,71 @@ img{
 }
 
 
+.faq_answer{
+    margin-right: 3rem;
+    display: none;
+}
 
 /* #endregion FOOTER */
+
+
+/* #region animation */
+
+.square .logo_img{
+    transition: all 2s linear;
+}
+
+.logo_img:hover{
+    filter: contrast(80%);
+    filter: sepia(80%);
+    width: 60%;
+}
+
+.logo_row_bottom.square{
+    transition: all 2s linear;
+}
+
+.square:hover{
+    filter: blur(80%);
+    filter: hue-rotate(50deg);
+}
+
+.free_trial{
+    transition: all 1s;
+}
+
+.free_trial:hover{
+    background-color: var(--light-white);
+    color: var(--dark-black);
+    border: 1px solid var(--dark-black);
+    padding: 1.5rem 1.5rem;
+
+}
+
+#find_partner, #bring_free_trial{
+    transition: all 1s linear;
+}
+
+#bring_free_trial:hover{
+    background-color: var(--link-blue);
+    border: none;
+    color: var(--light-white);
+}
+
+#find_partner:hover{
+    background-color: var(--link-blue);
+    border: none;
+    color: var(--light-white);
+}
+
+.col_section{
+    transition: all 0.5s ease-in;
+}
+
+.col_section:hover{
+    font-size: calc(100% + 10%);
+    margin: 0 2rem;
+}
+
+
+/* #endregion animation */

@@ -290,14 +290,18 @@ img{
     align-self: center;
 }
 
+.right_head{
+    margin-right: 1rem;
+}
+
 #start{
     height: 1.8rem;
     padding-top: 0.01rem;
     padding-bottom: 0.01rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: blue;
-    color: white;
+    background-color: var(--link-blue);
+    color: var(--light-white);
     border-radius: 12px;
     align-self: center;
     line-height: 1.8rem;
@@ -320,7 +324,10 @@ img{
     margin-top: 3rem; 
 }
 
-
+.checkbox_container{
+    padding-top: 2rem;
+    display: inline-block;
+}
 
 .presentation_bg{
     background-color: var(--dark-azure);
@@ -882,6 +889,7 @@ img{
     filter: contrast(80%);
     filter: sepia(80%);
     width: 60%;
+    
 }
 
 .logo_row_bottom.square{
@@ -891,6 +899,7 @@ img{
 .square:hover{
     filter: blur(80%);
     filter: hue-rotate(50deg);
+    border: 0.5rem solid var(--light-grey);
 }
 
 .free_trial{
@@ -930,5 +939,13 @@ img{
     margin: 0 2rem;
 }
 
+.logo{
+    transition: all 2s ease-out;
+}
+
+.logo:hover:{
+    margin-left: 1rem;
+    zoom: 1.2;
+}
 
 /* #endregion animation */
